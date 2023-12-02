@@ -1,0 +1,251 @@
+@media(width >=768px) {
+    body {
+        padding-top: 140px;
+        padding-left: 97px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        column-gap: 360px;
+        align-items: center;
+
+    }
+
+    .absolute-search {
+        top: 240px;
+        left: 120px;
+    }
+
+    .search {
+        width: 573px;
+        height: 69px;
+        padding-top: 9.5px;
+        margin-top: 35px;
+    }
+
+    .search-input {
+        margin-left: 40px;
+    }
+
+    .search-input::placeholder {
+        color: #4B6A9B;
+        font-family: Space Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 138.889% */
+    }
+
+    .search-button {
+        margin-left: 130px;
+        margin-right: 10px;
+        width: 106px;
+        height: 50px;
+    }
+
+    main {
+        width: 573px;
+        height: 481px;
+        padding-top: 40px;
+        padding-left: 40px;
+        margin-top: 24px;
+        margin-bottom: 236px;
+    }
+
+    .user-photo {
+        width: 117px;
+        height: 117px;
+        border-radius: 117px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    }
+
+    .user {
+        column-gap: 41px;
+    }
+
+    .bio {
+        color: #4B6A9B;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 166.667% */
+        width: 493px;
+    }
+
+    .repos-title,
+    .followers-title,
+    .following-title {
+        color: #4B6A9B;
+        font-family: Space Mono;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .r-f-f {
+        padding-top: 15px;
+        padding-left: 32px;
+        width: 493px;
+        column-gap: 4px;
+        height: 85px;
+        flex-shrink: 0;
+        column-gap: 100px;
+    }
+
+    .repos,
+    .followers,
+    .following {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .user-name {
+        color: #2B3442;
+        font-family: Space Mono;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .user-username {
+        color: #0079FF;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .user-date {
+        color: #697C9A;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .user-social {
+        display: grid;
+        grid-template-areas: "location twitter"
+            "link building";
+    }
+
+    .location-text,
+    .link-text,
+    .twitter-text,
+    .building-text {
+        color: #4B6A9B;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .location {
+        grid-area: location;
+    }
+
+    .twitter {
+        grid-area: twitter;
+    }
+
+    .building {
+        grid-area: building;
+    }
+
+    .link {
+        grid-area: link;
+    }
+}
+
+@media(width >=1440px) {
+    body {
+        padding-top: 144px;
+        padding-left: 355px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        column-gap: 520px;
+    }
+
+    .absolute-search {
+        left: 380px;
+        top: 241px;
+    }
+
+    .search {
+        width: 730px;
+        height: 69px;
+    }
+
+    .search-button {
+        margin-left: 250px;
+    }
+
+    main {
+        width: 730px;
+        height: 444px;
+        flex-shrink: 0;
+        padding-top: 48px;
+        padding-left: 48px;
+    }
+
+    .user-info {
+        display: flex;
+        row-gap: 70px;
+    }
+
+    .user-username {
+        margin-left: -170px;
+    }
+
+    .user-date {
+        position: absolute;
+        top: 360px;
+        left: 871px;
+    }
+
+    .r-f-f {
+        position: absolute;
+        top: 522px;
+        left: 557px;
+    }
+
+    .user-social {
+        position: absolute;
+        top: 646px;
+        left: 557px;
+    }
+
+    .twitter {
+        margin-left: 40px;
+    }
+
+    .building {
+        margin-left: 40px;
+    }
+
+    .user-name {
+        margin-top: -50px;
+    }
+
+    .bio {
+        position: absolute;
+        top: 440px;
+        left: 557px;
+    }
+
+}
